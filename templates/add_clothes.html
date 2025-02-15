@@ -151,7 +151,14 @@
       value="dresssleeves"
       required /></label
   ><br /><br />
-  <button type="submit" id="submit_button">Add to Wardrobe!</button>
+</div>
+<button class="confirm-button" id="confirm-button">
+  <img
+    src="{{url_for('static', filename='images/confirm.webp')}}"
+    class="confirm"
+  />
+</button>
+  <!-- <button type="submit" id="submit_button">Add to Wardrobe!</button> -->
 </form>
 
 <div class="overlay" id="co2_overlay"></div>
