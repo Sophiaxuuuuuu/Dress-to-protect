@@ -48,7 +48,7 @@
   display: none;
   top: 50vh;
   left: 50vw;
-  width: 50vw;
+  width: 100vw;
   height: auto;
   transform: translate(-50%, -45%);
   z-index: 12;

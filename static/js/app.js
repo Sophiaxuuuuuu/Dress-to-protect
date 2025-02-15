@@ -148,7 +148,7 @@ document.getElementById('confirm-button').addEventListener('click', () => {
 function animate() {
     // Rotate the model if it's loaded
     if (model) {
-        model.rotation.y += 0.01; // Rotate around the y-axis
+        model.rotation.y += 0.02; // Rotate around the y-axis
     }
 
     renderer.render(scene, camera);
