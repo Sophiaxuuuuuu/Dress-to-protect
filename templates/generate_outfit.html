@@ -5,7 +5,7 @@
   <!-- outfit button -->
 <div id="scene-container"></div>
 <div id="clothing-options">
-  <label><input type="checkbox" value="1">black dress</label>
+  <!-- <label><input type="checkbox" value="1">black dress</label>
   <label><input type="checkbox" value="3">jorts</label>
   <label><input type="checkbox" value="7">short skirt</label>
   <label><input type="checkbox" value="4">cargos</label>
@@ -16,6 +16,87 @@
   <label><input type="checkbox" value="0">white dress</label>
   <label><input type="checkbox" value="2">red sweater</label>
   <label><input type="checkbox" value="9">green tshirt</label>
+   -->
+  <!-- <table>
+    <tr>
+      <h1>Tops</h1>
+        <td><input type="checkbox" value="1">black dress</td>
+        <td><input type="checkbox" value="10">yellow shirt</td>
+        <td><input type="checkbox" value="6">beige sweater</td>
+        <td><input type="checkbox" value="0">white dress</td>
+        <td><input type="checkbox" value="2">red sweater</td>
+        <td><input type="checkbox" value="9">green tshirt</td>
+    <tr>
+      <h1>Bottoms</h1>
+        <td><input type="checkbox" value="7">jorts</td>
+        <td><input type="checkbox" value="3">short skirt</td>
+        <td><input type="checkbox" value="4">cargos</td>
+        <td><input type="checkbox" value="5">pants</td>
+        <td><input type="checkbox" value="10">long skirt</td>
+    </tr>
+</table> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Checkboxes</title>
+    <style>
+        .container {
+            max-width: 500px;
+            margin-bottom: 25px;
+
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns */
+            gap: 15px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid">
+            <!-- Column 1 -->
+            <div class="column">
+                <h3>Tops</h3>
+                <label><input type="checkbox" value="1"> black dress</label>
+                <label><input type="checkbox" value="10">yellow shirt</label>
+                <label><input type="checkbox" value="6">beige sweater</label>
+                <label><input type="checkbox" value="2">red sweater</label>
+                <label><input type="checkbox" value="9">green tshirt</label>
+                <label><input type="checkbox" value="0">white dress</label>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="column">
+                <h3>Bottoms</h3>
+                <label><input type="checkbox" value="8">long skirt</label>
+                <label><input type="checkbox" value="7">jorts</label>
+                <label><input type="checkbox" value="3">short skirt</label>
+                <label><input type="checkbox" value="4">cargos</label>
+                <label><input type="checkbox" value="5">pants</label>
+                <label><input type="checkbox" value="10">long skirt</label>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
+
 </div>
   <button class="confirm-button" id="confirm-button">
     <img
