@@ -4,6 +4,7 @@
   <h2 class="text">Log Your Outfits</h2>
   <!-- outfit button -->
 <div id="scene-container"></div>
+<<<<<<< HEAD
 <div id="clothing-options">
   <!-- <label><input type="checkbox" value="1">black dress</label>
   <label><input type="checkbox" value="3">jorts</label>
@@ -35,6 +36,9 @@
         <td><input type="checkbox" value="10">long skirt</td>
     </tr>
 </table> -->
+=======
+<div id="clothing-options"></div>
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,6 +49,7 @@
     <style>
         .container {
             max-width: 500px;
+<<<<<<< HEAD
             margin-bottom: 25px;
 
         }
@@ -55,19 +60,43 @@
             gap: 15px;
         }
 
+=======
+            position: relative;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-bottom: 100px;
+        }
+ 
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            gap: 15px;
+            place-items: center;
+        }
+ 
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
         .column {
             display: flex;
             flex-direction: column;
             gap: 5px;
         }
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
         h2 {
             text-align: center;
         }
     </style>
 </head>
 <body>
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
     <div class="container">
         <div class="grid">
             <!-- Column 1 -->
@@ -80,7 +109,11 @@
                 <label><input type="checkbox" value="9">green tshirt</label>
                 <label><input type="checkbox" value="0">white dress</label>
             </div>
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
             <!-- Column 2 -->
             <div class="column">
                 <h3>Bottoms</h3>
@@ -89,6 +122,7 @@
                 <label><input type="checkbox" value="3">short skirt</label>
                 <label><input type="checkbox" value="4">cargos</label>
                 <label><input type="checkbox" value="5">pants</label>
+<<<<<<< HEAD
                 <label><input type="checkbox" value="8">long skirt</label>
             </div>
         </div>
@@ -98,6 +132,14 @@
 </html>
 
 </div>
+=======
+                <label><input type="checkbox" value="10">long skirt</label>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+>>>>>>> 7502912d9c2100e7c02de998a0c4816c578aa052
   <button class="confirm-button" id="confirm-button">
     <img
       src="{{url_for('static', filename='images/confirm.webp')}}"
