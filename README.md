@@ -5,4 +5,4 @@ Dress to Protect is a web application that encouragers teenagers to rewear their
 
 **Inspiration** <br />
 
-**What it does** <br /> meow miao
+**What it does** <br /> meow 
